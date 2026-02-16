@@ -24,7 +24,9 @@ export function CheckboxDemo() {
 
   return (
     <FormControl>
-      <FormLabel>复选框（Checkbox）</FormLabel>
+      <FormLabel sx={{ color: "text.primary", fontWeight: 700, "&.Mui-focused": { color: "secondary.main" } }}>
+        复选框（Checkbox）
+      </FormLabel>
       <DoodleCheckboxGroup
         row
         values={values}

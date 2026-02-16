@@ -13,7 +13,9 @@ export function RadioDemo() {
 
   return (
     <FormControl>
-      <FormLabel>单选框（Radio）</FormLabel>
+      <FormLabel sx={{ color: "text.primary", fontWeight: 700, "&.Mui-focused": { color: "secondary.main" } }}>
+        单选框（Radio）
+      </FormLabel>
       <DoodleRadioGroup
         name="demo-radio"
         row
